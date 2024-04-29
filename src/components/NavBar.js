@@ -10,9 +10,9 @@ const NavBar = () => {
                 backgroundColor: "#fff"
             }}>
                 <img
-              src='/favicon.ico'
+              src='./favicon.ico'
               height='50'
-              alt=''
+              alt='logo'
               loading='lazy'
             />
                 <Navbar.Brand href="#home" style={{fontFamily:"Baufra", color:"black", marginLeft:"10px"}}>Top Moving Experts</Navbar.Brand>
