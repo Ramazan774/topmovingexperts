@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/topmovingexperts/static/css/main.49af351c.css",
-    "main.js": "/topmovingexperts/static/js/main.9965ae20.js",
+    "main.css": "/topmovingexperts/static/css/main.6f0188bb.css",
+    "main.js": "/topmovingexperts/static/js/main.fe4f793b.js",
     "static/js/453.e2a35fd5.chunk.js": "/topmovingexperts/static/js/453.e2a35fd5.chunk.js",
+    "static/media/lfgo.png": "/topmovingexperts/static/media/lfgo.8f035373d8883f543c67.png",
+    "static/media/outbounds.png": "/topmovingexperts/static/media/outbounds.8093b5c280cb6b99f03d.png",
+    "static/media/shipcars.png": "/topmovingexperts/static/media/shipcars.662bb247e6b15a75dcf6.png",
+    "static/media/logo.ico": "/topmovingexperts/static/media/logo.b0deb1d254c373baeb23.ico",
     "index.html": "/topmovingexperts/index.html",
-    "main.49af351c.css.map": "/topmovingexperts/static/css/main.49af351c.css.map",
-    "main.9965ae20.js.map": "/topmovingexperts/static/js/main.9965ae20.js.map",
+    "main.6f0188bb.css.map": "/topmovingexperts/static/css/main.6f0188bb.css.map",
+    "main.fe4f793b.js.map": "/topmovingexperts/static/js/main.fe4f793b.js.map",
     "453.e2a35fd5.chunk.js.map": "/topmovingexperts/static/js/453.e2a35fd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49af351c.css",
-    "static/js/main.9965ae20.js"
+    "static/css/main.6f0188bb.css",
+    "static/js/main.fe4f793b.js"
   ]
 }
