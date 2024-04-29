@@ -4,7 +4,7 @@ const MainParagraph = () => {
     return (
             <div class="container mb-5 mt-5">
                 <div class="row align-self-left">
-                    <div class="col-md-8">
+                    <div class="col-md-10">
                         <div class="align-self-center">
                             <div class="card-body">
                                     <p>Moving is a big life event, whether you're relocating to a new city or simply to a new apartment in your neighborhood. 

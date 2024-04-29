@@ -9,6 +9,13 @@ import MainParagraph from "../components/MainParagraph";
 import "./App.css";
 
 class App extends Component {
+    constructor() {
+        super();
+        this.state = {
+          cards: [],
+          searchfield: "",
+        };
+      }
 
     onSearchChange = (event) => {
         this.setState({ searchfield: event.target.value });
@@ -16,16 +23,16 @@ class App extends Component {
 
     render() {
         return (
-            <div className="main-container" style={{backgroundColor: "#fffafa"}}>
+            <div className="tc" style={{backgroundColor: "#fffafa"}}>
                 <NavBar>
                     <SearchBox searchChange={this.onSearchChange} />
                 </NavBar>
-                <Paragraph />
                 <Scroll>
+                    <Paragraph />
                     <CardList />
-                    <MainParagraph />
-                    <Footer />
-                </Scroll>              
+                    <MainParagraph />   
+                </Scroll> 
+                <Footer />           
             </div>
         );
     }
