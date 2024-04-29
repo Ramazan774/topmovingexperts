@@ -10,7 +10,7 @@ const Card1 = () => {
                 </div>
                 <div class="row no-gutters">
                     <div class="col-auto" style={{textAlign:"left"}}>
-                        <img src='/companies/lfgo.jpg' class="img-fluid" alt="lfgo" width={300} height={200} />
+                        <img src="/lfgo.jpg" class="img-fluid" alt="Logo" width={300} height={100} />
                     </div>
                 <div class="col">
                     <div class="card-body">
