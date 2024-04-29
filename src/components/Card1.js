@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import image from './lfgo.png'
 
 const Card1 = () => {
     return (
@@ -9,8 +10,10 @@ const Card1 = () => {
                     Best Overall
                 </div>
                 <div class="row no-gutters">
-                    <div class="col-auto" style={{textAlign:"left"}}>
-                        <img src="/lfgo.jpg" class="img-fluid" alt="Logo" width={300} height={100} />
+                    <div class="col-auto" style={{textAlign:"left"}}>        
+                    <div className="logo">
+                        <img src={image} class="img-fluid" alt="" width={300} height={100} />
+                    </div> 
                     </div>
                 <div class="col">
                     <div class="card-body">

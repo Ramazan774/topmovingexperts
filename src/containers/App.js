@@ -32,8 +32,7 @@ class App extends Component {
                     <CardList />
                     <MainParagraph />
                     <Footer />    
-                </Scroll> 
-                          
+                </Scroll>                  
             </div>
         );
     }

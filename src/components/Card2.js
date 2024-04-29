@@ -1,5 +1,6 @@
 import { Card } from "react-bootstrap";
 import React from "react";
+import image from "./outbounds.png";
 
 const Card2 = () => {
     return (
@@ -10,7 +11,7 @@ const Card2 = () => {
                 </div>
                 <div class="row no-gutters">
                     <div class="col-auto" style={{textAlign:"left"}}>
-                        <img src="/logos/Outbounds.png" class="img-fluid" alt="logo" width={300} height={100} />
+                        <img src={image} class="img-fluid" alt="" width={300} height={100} />
                     </div>
                 <div class="col">
                     <div class="card-body">
