@@ -1,38 +1,29 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar, Nav, Form } from 'react-bootstrap';
-import SearchBox from "./SearchBox";
-import image from "./logo.ico";
+import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
+import image from "./logos/logo.ico";
  
 const NavBar = () => {
     return (
-        <div>
-            <Navbar style={{backgroundColor: "#fff"}}>        
-                <div>
-                    <img src={image} height='50' alt='' loading='lazy'/>
-                </div> 
-            <Navbar.Brand href="#home" style={{fontFamily:"Baufra", color:"black", marginLeft:"10px"}}>Top Moving Experts</Navbar.Brand>
-            <Form href="#search" style={{color:"black", marginLeft:"20px"}}>
-                <SearchBox />
-            </Form>
-            <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
-                <Nav>
-                    <Nav.Link href="https://lfgo.at/" target="_blank" style={{color:"black"}}>
-                        Home
-                    </Nav.Link>
-                    {/* <Nav.Link href="https://lfgo.at/" target="_blank" style={{color:"black"}}>
-                        Auto Shipping
-                    </Nav.Link>
-                    <Nav.Link href="https://lfgo.at/" target="_blank" style={{color:"black"}}>
-                        Placeholder text
-                    </Nav.Link>
-                    <Nav.Link href="https://lfgo.at/" target="_blank" style={{color:"black"}}>
-                        Placeholder text
-                    </Nav.Link> */}
-                </Nav>
+        
+            <Navbar style={{backgroundColor: "#fff", zIndex: 1000 }}>  
+                <Container>
+                    <Navbar.Brand className="d-flex justify-content-center align-items-center">
+                        <div className="d-flex align-items-center">
+                            <img src={image} height='50' alt='' loading='lazy' className="mr-2"/>   
+                       </div>
+                   </Navbar.Brand>
+                </Container>      
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" >
+                    <Nav>
+                        <Nav.Link href="#home" target="_blank" style={{color:"black"}} className="col-md-5">
+                            Home
+                        </Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </div>
+        
     )
 }
 

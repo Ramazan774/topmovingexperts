@@ -27,12 +27,10 @@ class App extends Component {
                 <NavBar>
                     <SearchBox searchChange={this.onSearchChange} />
                 </NavBar>
-                <Scroll>
-                    <Paragraph />
-                    <CardList />
-                    <MainParagraph />
-                    <Footer />    
-                </Scroll>                  
+                <Paragraph />
+                <CardList />
+                <MainParagraph />
+                <Footer />             
             </div>
         );
     }
