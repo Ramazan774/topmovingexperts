@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.05d90463.css",
-    "main.js": "/static/js/main.18a0b534.js",
+    "main.css": "/static/css/main.fb84aee5.css",
+    "main.js": "/static/js/main.5f42516a.js",
     "static/js/453.e2a35fd5.chunk.js": "/static/js/453.e2a35fd5.chunk.js",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/lfgo.png": "/static/media/lfgo.8f035373d8883f543c67.png",
@@ -10,12 +10,12 @@
     "static/media/shipcars.png": "/static/media/shipcars.662bb247e6b15a75dcf6.png",
     "static/media/logo.ico": "/static/media/logo.b0deb1d254c373baeb23.ico",
     "index.html": "/index.html",
-    "main.05d90463.css.map": "/static/css/main.05d90463.css.map",
-    "main.18a0b534.js.map": "/static/js/main.18a0b534.js.map",
+    "main.fb84aee5.css.map": "/static/css/main.fb84aee5.css.map",
+    "main.5f42516a.js.map": "/static/js/main.5f42516a.js.map",
     "453.e2a35fd5.chunk.js.map": "/static/js/453.e2a35fd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05d90463.css",
-    "static/js/main.18a0b534.js"
+    "static/css/main.fb84aee5.css",
+    "static/js/main.5f42516a.js"
   ]
 }
