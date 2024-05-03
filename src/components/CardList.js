@@ -8,17 +8,17 @@ const CardList = () => {
     return (
         <Container>
             <Row>
-                <Col className='col-10'>
+                <Col className='col-12'>
                     <Card className= 'tc grow bg-light-gray shadow mt-5 bg-white rounded' >
                         <Card1 />
                     </Card>
                 </Col>
-                <Col className='col-10'>
+                <Col className='col-12'>
                     <Card className= 'tc grow bg-light-gray shadow mt-5 bg-white rounded' >
                         <Card2 />
                     </Card>
                 </Col>
-                <Col className='col-10'>
+                <Col className='col-12'>
                     <Card className= 'tc grow bg-light-gray shadow mt-5 bg-white rounded' >
                         <Card3 />
                     </Card>

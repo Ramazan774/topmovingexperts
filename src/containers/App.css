@@ -1,8 +1,5 @@
-p {
-    font-family: 'sans-serif, bold';
-}
 /* Responsive styles */
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
     /* Desktop laptops (laptops, 1024 and up) */
     p {
         font-size: 1rem;
@@ -17,13 +14,13 @@ p {
     .checkmark {
         font-size: 1rem;
     }
-
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1023px){
     /* Large devices (tablets, 768px and up) */
     p {
         font-size: 1rem;
+        width: 45rem !important;
     }
 
     .card {  
@@ -38,7 +35,7 @@ p {
 
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767px){
     /* Medium devices (landscape phones, 576px and up) */
     p {
         font-size: 1rem;
@@ -56,21 +53,42 @@ p {
 
 }
 
-@media only screen and (max-width: 575px) {
+@media (max-width: 390px) {
+    /* Small devices (phones, less than 576px) */
+    p {
+        font-size: 0.4rem;
+    }
+
+    .tc {
+        width: 100% !important;
+    }
+    .card {
+        display: flex !important;
+        width: 100% !important;
+        flex-direction: column !important;
+    } 
+}
+
+@media (min-width: 391px) and (max-width: 575px) {
     /* Small devices (phones, less than 576px) */
     p {
         font-size: 0.6rem;
     }
+
+    .tc {
+        width: 100%;
+    }
     .card {
-        display: block !important;
-        width: 25rem !important;
-        flex:none !important;
+        display: flex !important;
+        width: 100% !important;
+        flex-direction: column !important;
     }
     .checkmark {
         font-size: 0.6rem;
     }
 
 }
+
 
 @media (orientation: portrait) {
     /* Portrait orientation */

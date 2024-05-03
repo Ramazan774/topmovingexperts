@@ -7,21 +7,23 @@ const Card2 = () => {
         <Card>
             <div class="card text-center">
                 <div className="card-header" style={{backgroundColor:"lightgreen"}}>
-                    <a href="#" class="btn border-black flex-fill"><i class="bi bi-telephone"></i> 888-877-8888</a>
+                    <a href="#" class="btn border-black flex-fill"><i class="bi bi-telephone"></i> 855-503-0008</a>
                 </div>
                 <div class="row no-gutters">
-                    <div class="col-auto" style={{textAlign:"left", marginTop:"75px"}}>
-                        <img src={image} class="img-fluid" alt="" width={200} height={100} />
+                    <div class="col-auto" style={{textAlign:"left", marginTop:"75px", marginLeft:"25px"}}>
+                        <div className="logo">
+                            <img src={image} class="img-fluid" alt="" width={150} height={100} />
+                        </div>
                     </div>
                 <div class="col">
                     <div class="card-body">
-                        <h5 class="card-title" style={{fontFamily:"sans-serif", fontWeight:"bold", fontSize:"26px"}}>Outbounds</h5>
-                        <div>
-                            <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Punctual and reliable transportation services tailored to your needs.</div>
-                            <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Extensive fleet of vehicles ensuring comfort, safety, and efficiency.</div>
-                            <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Dedicated customer support available 24/7 to assist with any inquiries or bookings.</div>
-                            <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Eco-friendly initiatives integrated into our operations, promoting sustainability while delivering exceptional service.</div>
-                        </div>
+                        <h5 class="card-title" style={{fontFamily:"sans-serif", fontWeight:"bold", fontSize:"26px",}}>Outbounds</h5>
+                            <div className="content">
+                                <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Utilizes AI to select the most appropriate and safe transport company.</div>
+                                <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Strict rules regarding carrier selection to ensure safety and experience.</div>
+                                <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Outstanding customer service and professional claim handling.</div>
+                                <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Adheres strictly to initial quotes without last-minute changes.</div><br></br>
+                            </div>
                         </div>
                     </div>
                     <div class="col-auto align-self-center">
@@ -30,14 +32,14 @@ const Card2 = () => {
                         </div>
                     </div>
                 </div>
-            <div class="card-footer text-muted">
-                <span class="mr-2">4.3 rating</span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-            </div>   
+                <div class="card-footer text-muted">
+                    <span class="mr-2">4.8 rating</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-o checked"></span>
+                </div>   
             </div>
         </Card>
     );
