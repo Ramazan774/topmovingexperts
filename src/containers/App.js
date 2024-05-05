@@ -9,7 +9,7 @@ import "./App.css";
 class App extends Component {    
     render() {
         return (
-            <div className="tc" style={{background: "linear-gradient(to right, #fdfcfb, #e2d1c3)"}}>
+            <div className="tc">
                 <NavBar />
                 <Paragraph />
                 <CardList />

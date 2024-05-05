@@ -11,8 +11,8 @@ const Card2 = () => {
                 </div>
                 <div class="row no-gutters">
                     <div class="col-auto" style={{textAlign:"left", marginTop:"75px", marginLeft:"25px"}}>
-                        <div className="logo">
-                            <img src={image} class="img-fluid" alt="" width={150} height={100} />
+                        <div className="out-logo">
+                            <img src={image} class="img-fluid" alt="" width={200} height={100} />
                         </div>
                     </div>
                 <div class="col">

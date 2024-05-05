@@ -13,7 +13,7 @@ const Card1 = () => {
                 <div class="row no-gutters">
                     <div class="col-auto" style={{textAlign:"left"}}>        
                         <div className="logo">
-                            <img src={image} class="img-fluid" alt="" width={200} height={70} />
+                            <img src={image} class="img-fluid" alt="" width={200} height={100} />
                         </div> 
                     </div>
                 <div class="col">

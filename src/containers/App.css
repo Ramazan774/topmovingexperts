@@ -1,5 +1,21 @@
+.tc {
+    background-image: linear-gradient( #fdfcfb, #e2d1c3);
+}
+
+.accordion-button {
+    background-color: #e0e0e0 !important;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-header {
+    font-family:monospace;
+  }
+
 /* Responsive styles */
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     /* Desktop laptops (laptops, 1024 and up) */
     p {
         font-size: 1rem;
@@ -16,16 +32,16 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 991px){
     /* Large devices (tablets, 768px and up) */
     p {
         font-size: 1rem;
-        width: 45rem !important;
+        width: 100% !important;
     }
 
     .card {  
         display: block !important;
-        width: 45rem !important;
+        width: 100% !important;
         flex:none !important;
     }
 
@@ -38,66 +54,91 @@
 @media (min-width: 576px) and (max-width: 767px){
     /* Medium devices (landscape phones, 576px and up) */
     p {
-        font-size: 1rem;
+        font-size: 0.8rem;
+        
     }
 
-    .card {
+    .card {  
         display: block !important;
-        width: 45rem !important;
+        width: 100% !important;
         flex:none !important;
     }
 
     .checkmark {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
-
-}
-
-@media (max-width: 390px) {
-    /* Small devices (phones, less than 576px) */
-    p {
-        font-size: 0.4rem;
-    }
-
-    .tc {
-        width: 100% !important;
-    }
-    .card {
-        display: flex !important;
-        width: 100% !important;
-        flex-direction: column !important;
-    } 
 }
 
 @media (min-width: 391px) and (max-width: 575px) {
     /* Small devices (phones, less than 576px) */
-    p {
-        font-size: 0.6rem;
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 30%;    
     }
 
-    .tc {
-        width: 100%;
+    .out-logo {
+        position: absolute;
+        top:3cm;
+        left: 30%; 
+    }
+
+    .content {
+        width: 22rem;
+    }
+
+    .card-body {
+        margin-top: 60px;
+    }
+
+    p {
+        font-size: 0.8rem;
     }
     .card {
-        display: flex !important;
+        display: block !important;
         width: 100% !important;
-        flex-direction: column !important;
+        flex:none !important;
     }
     .checkmark {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
-
 }
 
-
-@media (orientation: portrait) {
-    /* Portrait orientation */
-    p {
-        font-size: 1rem; /* Reset font size for portrait */
+@media (max-width: 390px) {
+    /* Small devices (phones, less than 576px) */
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 30%;    
     }
 
-    .checkmark {
+    .out-logo {
+        position: absolute;
+        top:2cm;
+        left: 30%; 
+    }
+
+    .content {
+        width: 18rem;
+        align-items: left;
+    }
+
+    p {
         font-size: 0.6rem;
+    }
+
+    .card-body {
+        margin-top: 50px;
+    }
+
+    .card {
+        display: block !important;
+        width: 100% !important;
+        flex:none !important;
+    } 
+
+    .checkmark {
+        font-size: 0.8rem;
     }
 }
 
