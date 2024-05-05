@@ -56,35 +56,35 @@ const Paragraph = () => {
                             className="mb-3" 
                             fill
                         >
-                            <Tab eventKey="open transport" title="Open Transport">
+                            <Tab className="em" eventKey="open transport" title="Open Transport">
                                 This is the most common and cost-effective method. 
                                 Cars are transported on an open trailer, 
                                 exposed to the elements like rain, snow, and road debris. While this method includes basic insurance, the protection might not cover all damages, 
                                 especially those under a deductible.
                             </Tab>
-                            <Tab eventKey="enclosed-transport" title="Enclosed Transport">
+                            <Tab className="em" eventKey="enclosed-transport" title="Enclosed Transport">
                                 More expensive but advisable for luxury or low-clearance vehicles. Cars are shipped in a fully enclosed trailer, protecting them from environmental 
                                 elements and potential minor damages.
                             </Tab>
-                            <Tab eventKey="door-to-door-service" title="Door-to-Door Service">
+                            <Tab className="em" eventKey="door-to-door-service" title="Door-to-Door Service">
                                 Often exaggerated in advertisements. Real-world issues like local regulations or 
                                 physical obstacles can prevent carriers from delivering directly to 
                                 your doorstep. It’s usually more practical to arrange a pickup or drop-off in a nearby, accessible location.
                             </Tab>
-                            <Tab eventKey="broker" title="Choosing a Reliable Broker">
+                            <Tab className="em" eventKey="broker" title="Choosing a Reliable Broker">
                                 Opt for a broker who offers realistic prices and avoids those who entice with 
                                 suspiciously low rates, as they may employ inexperienced carriers. Verify that the broker uses experienced carriers and provides transparent information 
                                 about additional charges, like those for transporting modified vehicles or those loaded with personal items.
                             </Tab>
-                            <Tab eventKey="preparation-inspection"  title="Vehicle Preparation and Inspection">
+                            <Tab className="em" eventKey="preparation-inspection"  title="Vehicle Preparation and Inspection">
                                 Ensure your vehicle is prepared correctly and insist on a thorough inspection 
                                 before and after transport. Document any discrepancies or damages before signing any paperwork.
                             </Tab>
-                            <Tab eventKey="insurance" title="Insurance and Additional Charges">
+                            <Tab className="em" eventKey="insurance" title="Insurance and Additional Charges">
                                 Some brokers might try to charge extra for supposed insurance benefits or preferred 
                                 loading positions (like top load spots), which often don't materialize as promised. Be wary of these upsells, as they are generally unnecessary.
                             </Tab>
-                            <Tab eventKey="expectations" title="Realistic Expectations on Delivery Times and Tracking">
+                            <Tab className="em" eventKey="expectations" title="Realistic Expectations on Delivery Times and Tracking">
                                 Understand that while brokers can guarantee pickup times, delivery dates are often 
                                 out of their control. Be skeptical of guaranteed delivery times and real-time tracking promises, as these are often marketing gimmicks.
                             </Tab>

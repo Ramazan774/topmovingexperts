@@ -6,6 +6,11 @@
     text-align: justify;
 }
 
+.em {
+    text-align: justify;
+    font-family: sans-serif;
+}
+
 .accordion-button {
     background-color: #e0e0e0 !important;
   }
