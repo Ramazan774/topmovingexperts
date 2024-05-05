@@ -34,93 +34,24 @@
 
 @media (min-width: 768px) and (max-width: 991px){
     /* Large devices (tablets, 768px and up) */
-    p {
-        font-size: 1rem;
-        width: 100% !important;
-    }
-
-    .card {  
-        display: block !important;
-        width: 100% !important;
-        flex:none !important;
-    }
-
-    .checkmark {
-        font-size: 1rem;
-    }
-
-}
-
-@media (min-width: 576px) and (max-width: 767px){
-    /* Medium devices (landscape phones, 576px and up) */
-    p {
-        font-size: 0.8rem;
-        
-    }
-
-    .card {  
-        display: block !important;
-        width: 100% !important;
-        flex:none !important;
-    }
-
-    .checkmark {
-        font-size: 0.8rem;
-    }
-}
-
-@media (min-width: 391px) and (max-width: 575px) {
-    /* Small devices (phones, less than 576px) */
     .logo {
-        position: absolute;
-        top: 0;
-        left: 30%;    
+        position: relative;
+        width: 200px;
+        height: 100px;
+        margin-left: 220px;
     }
 
     .out-logo {
-        position: absolute;
-        top:3cm;
-        left: 30%; 
+        position: relative;
+        margin-bottom: 1px;
+        width: 200px;
+        height: 10px;
+        margin-left: 220px; 
     }
 
     .content {
-        width: 22rem;
-    }
-
-    .card-body {
-        margin-top: 60px;
-    }
-
-    p {
-        font-size: 0.8rem;
-    }
-    .card {
-        display: block !important;
-        width: 100% !important;
-        flex:none !important;
-    }
-    .checkmark {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 390px) {
-    /* Small devices (phones, less than 576px) */
-    .logo {
-        position: absolute;
-        top: 0;
-        left: 30%;    
-    }
-
-    .out-logo {
-        position: absolute;
-        top:2cm;
-        left: 30%; 
-    }
-
-    .content {
-        width: 18rem;
-        align-items: left;
+        margin-right: 160px;
+        margin-left: 120px;
     }
 
     p {
@@ -132,13 +63,154 @@
     }
 
     .card {
-        display: block !important;
-        width: 100% !important;
-        flex:none !important;
+        width: 100%;
+        margin: 0 auto;
+    } 
+
+    .checkmark {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .btn-primary {
+        position: relative;
+        margin-left: 250px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    /* Medium devices (landscape phones, 576px and up) */
+    .logo {
+        display: block;
+        width: 200px;
+        height: 100px;
+        margin-left: 150px;
+    }
+
+    .out-logo {
+        position: relative;
+        margin-bottom: 1px;
+        width: 200px;
+        height: 10px;
+        margin-left: 150px; 
+    }
+
+    .content {
+        margin-left: 80px;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    .card-body {
+        margin-top: 50px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
     } 
 
     .checkmark {
         font-size: 0.8rem;
+        text-align: left;
+    }
+
+    .btn-primary {
+        position: relative;
+        margin-left: 180px;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 575px) {
+    /* Small devices (phones, less than 576px) */
+    .logo {
+        display: block;
+        width: 150px;
+        height: 70px;
+        margin-left: 120px;
+    }
+
+    .out-logo {
+        position: relative;
+        margin-bottom: 1px;
+        width: 150px;
+        height: 10px;
+        margin-left: 100px; 
+    }
+
+    .content {
+        margin-left: 20px;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    .card-body {
+        margin-top: 20px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
+    } 
+
+    .checkmark {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+    .btn-primary {
+        position: relative;
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 390px) {
+    /* Small devices (phones, less than 576px) */
+    .logo {
+        display: block;
+        width: 150px;
+        height: 70px;
+        margin-left: 100px;
+    }
+
+    .out-logo {
+        position: relative;
+        margin-bottom: 1px;
+        width: 150px;
+        height: 10px;
+        margin-left: 100px; 
+    }
+
+    .content {
+        margin-left: 20px;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    .card-body {
+        margin-top: 20px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
+    } 
+
+    .checkmark {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+    .btn-primary {
+        position: relative;
+        margin-left: 100px;
     }
 }
 

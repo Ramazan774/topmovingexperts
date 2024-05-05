@@ -16,7 +16,7 @@ const Card3 = () => {
                         </div>
                     </div>
                 <div class="col">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title" style={{fontFamily:"sans-serif", fontWeight:"bold", fontSize:"26px"}}>Ship cars for me</h5>
                         <div className="content">
                             <div className="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Caters primarily to military member and students.</div>

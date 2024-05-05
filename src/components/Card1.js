@@ -17,7 +17,7 @@ const Card1 = () => {
                         </div> 
                     </div>
                 <div class="col">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title" style={{fontFamily:"sans-serif", fontWeight:"bold", fontSize:"26px"}}>LFGO</h5>
                             <div className="content">
                                 <div class="checkmark" style={{display:"flex", alignItems:"center"}}>&#10003; Prices are always guaranteed.</div>
