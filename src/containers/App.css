@@ -2,6 +2,10 @@
     background-image: linear-gradient( #fdfcfb, #e2d1c3);
 }
 
+.lead {
+    text-align: justify;
+}
+
 .accordion-button {
     background-color: #e0e0e0 !important;
   }
