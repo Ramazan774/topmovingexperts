@@ -7,7 +7,7 @@ const Card3 = () => {
         <Card>
             <div class="card text-center">
                 <div className="card-header" style={{backgroundColor:"lightgreen"}}>
-                    <a href="#" class="btn border-black flex-fill"><i class="bi bi-telephone"></i> 844-773-0009</a>
+                    <a href="tel:844-773-0009" class="btn border-black flex-fill"><i class="bi bi-telephone"></i> Call now</a>
                 </div>
                 <div class="row no-gutters">
                     <div class="col-auto" style={{textAlign:"left"}}>
