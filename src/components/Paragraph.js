@@ -10,9 +10,6 @@ const Paragraph = () => {
                 <div class="col-md-12">
                     <h4 class="display-4" style={{fontFamily:"sans-serif", fontSize:"35px", fontWeight:"bold"}}>Best Moving Companies in 2024</h4>
                     <div className="row no-gutters">
-                        <div className="author-info col-auto">
-                            <img src={image} alt="author photo" className="rounded-circle" width="50px" height="50px" />                         
-                        </div>
                         <div className="col-auto">
                             <p style={{fontFamily:"monospace", fontWeight:"bold", fontSize:"13px"}}>Written By: Ethan Carter</p>
                             <div style={{display:"flex", alignItems:"center"}}>
