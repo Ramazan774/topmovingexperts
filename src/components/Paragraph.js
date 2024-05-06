@@ -1,6 +1,5 @@
 import React from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import image from "./logos/ethanCarter.jpg" 
 import { Accordion, Tab, Tabs, Card } from "react-bootstrap";
 
 const Paragraph = () => {

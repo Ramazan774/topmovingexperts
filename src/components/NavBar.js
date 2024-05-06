@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
-import image from "./logos/logo.ico";
+import image from "./logos/logo.png";
  
 const NavBar = () => {
     return (
@@ -9,7 +9,7 @@ const NavBar = () => {
             <Container>
                     <Col className="col-auto">
                         <Navbar.Brand>
-                                <img src={image} height='50' alt='' loading='lazy' className=""/> 
+                                <img src={image} height='40' alt='' loading='lazy' padding="10px"/> 
                         </Navbar.Brand>  
                     </Col>
                     <Col className="col-auto">
