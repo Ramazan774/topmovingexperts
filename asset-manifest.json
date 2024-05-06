@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.af16a050.css",
-    "main.js": "/static/js/main.456a0858.js",
+    "main.js": "/static/js/main.d9cb0fd7.js",
     "static/js/453.e2a35fd5.chunk.js": "/static/js/453.e2a35fd5.chunk.js",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/lfgo.png": "/static/media/lfgo.8f035373d8883f543c67.png",
-    "static/media/ethanCarter.jpg": "/static/media/ethanCarter.e9127feb07b2ed519b33.jpg",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/outbounds.png": "/static/media/outbounds.8093b5c280cb6b99f03d.png",
     "static/media/shipcars.png": "/static/media/shipcars.662bb247e6b15a75dcf6.png",
-    "static/media/logo.ico": "/static/media/logo.b0deb1d254c373baeb23.ico",
+    "static/media/logo.png": "/static/media/logo.9ea350e0b01d3317f509.png",
     "index.html": "/index.html",
     "main.af16a050.css.map": "/static/css/main.af16a050.css.map",
-    "main.456a0858.js.map": "/static/js/main.456a0858.js.map",
+    "main.d9cb0fd7.js.map": "/static/js/main.d9cb0fd7.js.map",
     "453.e2a35fd5.chunk.js.map": "/static/js/453.e2a35fd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af16a050.css",
-    "static/js/main.456a0858.js"
+    "static/js/main.d9cb0fd7.js"
   ]
 }
