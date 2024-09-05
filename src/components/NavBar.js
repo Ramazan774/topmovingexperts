@@ -1,11 +1,11 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav, Container, Col } from 'react-bootstrap';
 import image from "./logos/logo.png";
  
 const NavBar = () => {
     return (
-        <Navbar style={{backgroundColor: "#fff", background:"shadow"}}>  
+        <Navbar>  
             <Container>
                     <Col className="col-auto">
                         <Navbar.Brand>

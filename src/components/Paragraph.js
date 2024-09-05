@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { Accordion, Tab, Tabs, Card } from "react-bootstrap";
+import { Accordion, Tab, Tabs } from "react-bootstrap";
 
 const Paragraph = () => {
     return (
@@ -85,9 +85,6 @@ const Paragraph = () => {
                                 out of their control. Be skeptical of guaranteed delivery times and real-time tracking promises, as these are often marketing gimmicks.
                             </Tab>
                         </Tabs>
-                    
-                    
-    
                     <h5 style={{fontStyle:"italic", marginTop:"20px"}}>Recommended Companies</h5>
                     <p className="lead" style={{fontFamily:"sans-serif", fontSize:"16px"}}>Based on personal experiences and feedback from family and friends, here are 
                     three reputable companies that stand by their quotes and provide exceptional service:</p>
