@@ -28,7 +28,7 @@ const Card2 = () => {
                     </div>
                     <div class="col-auto align-self-center">
                         <div class="card-body">
-                            <a href="https://outbounds.at/" target="_blank" class="btn btn-primary float-right mb-2">Get free quote</a>
+                            <a href="https://outbounds.at/" target="_blank" rel="noreferrer" class="btn btn-primary float-right mb-2">Get free quote</a>
                         </div>
                     </div>
                 </div>
