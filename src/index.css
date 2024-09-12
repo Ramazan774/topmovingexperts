@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities; */
 
-body {
+html, body {
+  height: 100%;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   font-family: sans-serif;
-  background: #fdfcfb;
-} 
+  background: #c88b4f;
+}
 
 
 

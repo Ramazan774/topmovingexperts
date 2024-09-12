@@ -1,5 +1,11 @@
 .tc {
-    background-image: linear-gradient( #fdfcfb, #e2d1c3);
+    background-image: linear-gradient(#fdfcfb, #e2d1c3);
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
 }
 
 .lead {
